@@ -46,6 +46,9 @@ images will be converted to base64 and embedded in the bundled `scripts.js` file
 ### Styles:
 all styles will be embedded in bundled `scripts.js`
 
+### Settings:
+You can pass any settings while initializing the plugin, and all your settings will be copied to redux store and can be accessed from all components the same way we used `title` settings in [`src/components/Header/`](/src/components/Header/index.js)
+
 ---
 
 ## Features:
