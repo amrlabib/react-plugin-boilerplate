@@ -26,7 +26,7 @@ React plugin boilerplate is to help you build a powerful plugin with all react p
 The goal is to bundle all your code and assets including [images, svgs, and styles] in a single file that can be hosted and then included in any web page, in the following way
 
 ```
-<script type="text/javascript" src="./js/scripts.js"></script>
+<script type="text/javascript" src="http://hosting.server.com/js/scripts.js"></script>
 <script>MyPlugin.init({ title: 'My Plugin Title' });</script>
 ```
 
