@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.star {
+  width: 25px;
+  height: 25px;
+  fill: white;
+}
+
+.plugin-header {
+  margin: 0 10px;
+}
