@@ -12,7 +12,7 @@ React plugin boilerplate is to help you build a powerful plugin with all react p
 ## Setup:
 
 1. `yarn` or `npm install`
-2. `yarn start:dev` to build and watch for changes, also a dev server will start on `http://localhost:3001/`
+2. `yarn start:dev` to build and watch for changes, also a dev server will start on `http://localhost:3000/`
 
 #### Other scripts:
 1. `yarn json-server` to create test json api `http://localhost:3001/`
