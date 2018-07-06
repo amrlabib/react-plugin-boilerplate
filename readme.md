@@ -21,6 +21,33 @@ React plugin boilerplate is to help you build a powerful plugin with all react p
 
 ---
 
+## How it works:
+
+The goal is to bundle all your code and assets including [images, svgs, and styles] in a single file that can be hosted and then included in any web page, in the following way
+
+```
+<script type="text/javascript" src="./js/scripts.js"></script>
+<script>MyPlugin.init({ title: 'My Plugin Title' });</script>
+```
+
+### Svgs:
+all svgs will be embedded as inline svg in the plugin
+
+* Add your svg in `/src/assets/icons/`(/src/assets/icons)
+* Include it in  [`/src/utils/svgs.js`](/src/utils/svgs.js)
+* Finally include svg in your component as in [`/src/components/Header`](/src/components/Header/index.js)
+
+### Images:
+images will be converted to base64 and embedded in the bundled `scripts.js` file, note that the max image size is set to 50kb ideally you should not be using big size images in a plugin.
+
+* Add your image in `/src/assets/images/`(/src/assets/images)
+* Reference your image in style and it will be converted to base64 as in [`src/components/Header/`](src/components/Header/header.scss)
+
+### Styles:
+all styles will be embedded in bundled `scripts.js`
+
+---
+
 ## Features:
 
 1. [ES6 Features](http://es6-features.org/#Constants)
