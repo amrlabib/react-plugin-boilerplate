@@ -12,9 +12,12 @@ type PropsType = {
 
 const Header = ({ title }: PropsType) => (
   <div styleName="container">
-    <SvgStar styleName="star" />
-    <span styleName="plugin-header">{title}</span>
-    <SvgStar styleName="star" />
+    <span styleName="react-image" />
+    <div styleName="row">
+      <SvgStar styleName="star" />
+      <span styleName="title">{title}</span>
+      <SvgStar styleName="star" />
+    </div>
   </div>
 );
 
