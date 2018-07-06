@@ -33,14 +33,14 @@ The goal is to bundle all your code and assets including [images, svgs, and styl
 ### Svgs:
 all svgs will be embedded as inline svg in the plugin
 
-* Add your svg in `/src/assets/icons/`(/src/assets/icons)
+* Add your svg in [`/src/assets/icons/`](/src/assets/icons)
 * Include it in  [`/src/utils/svgs.js`](/src/utils/svgs.js)
 * Finally include svg in your component as in [`/src/components/Header`](/src/components/Header/index.js)
 
 ### Images:
 images will be converted to base64 and embedded in the bundled `scripts.js` file, note that the max image size is set to 50kb ideally you should not be using big size images in a plugin.
 
-* Add your image in `/src/assets/images/`(/src/assets/images)
+* Add your image in [`/src/assets/images/`](/src/assets/images)
 * Reference your image in style and it will be converted to base64 as in [`src/components/Header/`](src/components/Header/header.scss)
 
 ### Styles:
